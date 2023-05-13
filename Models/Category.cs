@@ -11,8 +11,9 @@ namespace TopicHubBE.Models
         public int CategoryID { get; set; }
         [Column(TypeName = "nvarchar(100)")]
         public string CategoryName { get; set; }
-        [DataType(Datatype.DateTime)]
+        [DataType(DataType.DateTime)]
         public DateTime createdAt {get; set;}
 
+        //Relations
     }
 }
